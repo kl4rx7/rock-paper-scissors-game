@@ -6,7 +6,7 @@ while(True):
     computer_turn = random.choice(turns)
 
     if human_turn == 'exit':
-        print('Thank you for playing! Bye bye')
+        print('Thank you for playing!')
         break
 
     print(f'Human:{human_turn} vs. Computer:{computer_turn}')
